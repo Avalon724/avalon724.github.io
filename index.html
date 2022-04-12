@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>MediSeba</title>
+  </head>
+  <body>
+    <header class="header">
+      <!-- Navbar -->
+      <img
+        src="./assets/menu_button.png"
+        alt="menu_button"
+        class="header__menu"
+        id="menu"
+        height="17"
+        width="25"
+        onclick="showMenu()"
+      />
+      <nav class="header__nav">
+        <a href="index.html"><img src="./assets/logo.png" alt="logo" /></a>
+        <ul class="header__nav__navlinks navlinks__transition" id="navlinks">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Banner -->
+    <div style="position: relative">
+      <img src="./assets/banner.jpg" alt="banner" class="header__banner" />
+      <div class="header__banner__container">
+        <section class="header__banner__text">
+          <h1>SUCCESS ORIENTED</h1>
+          <p>Lorem ipsum dolor sit amet.</p>
+          <button class="header__banner__text--btn">Read More</button>
+        </section>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="main__container">
+      <section class="main__container__head">
+        <h1>MEDICAL SERVICES</h1>
+        <img src="./assets/heartbeat.png" alt="heartbeat" />
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate
+          modi voluptates odio! Sit placeat doloremque deleniti quis alias?
+          Autem voluptate odio veritatis quisquam, voluptas doloribus iure
+          debitis harum mollitia sapiente nihil voluptatem accusamus ex itaque
+          quia doloremque, tempora esse. Saepe!
+        </p>
+      </section>
+
+      <!-- Main Content Grid -->
+      <div class="main__container__grid">
+        <div class="main__container__grid__items">
+          <div class="main__container__flex">
+            <article class="main__container__flex__items">
+              <div>
+                <h3>PROFESSIONAL DOCTORS</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Illo, vero?
+                </p>
+              </div>
+              <div class="main__container__flex__img">
+                <img src="./assets/service-1.png" alt="service-1" />
+              </div>
+            </article>
+            <article class="main__container__flex__items">
+              <div>
+                <h3>EMERGENCY CARE</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Illo, vero?
+                </p>
+              </div>
+              <div class="main__container__flex__img">
+                <img src="./assets/service-2.png" alt="service-2" />
+              </div>
+            </article>
+            <article class="main__container__flex__items">
+              <div>
+                <h3>EXCLUSIVE BLOOD BANK</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Illo, vero?
+                </p>
+              </div>
+              <div class="main__container__flex__img">
+                <img src="./assets/service-3.png" alt="service-3" />
+              </div>
+            </article>
+            <article class="main__container__flex__items">
+              <div>
+                <h3>24 HOUR SERVICE</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Illo, vero?
+                </p>
+              </div>
+              <div class="main__container__flex__img">
+                <img src="./assets/service-4.png" alt="service-4" />
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="main__container__grid__items">
+          <img src="./assets/doctor.png" alt="doctor" />
+        </div>
+        <div class="main__container__grid__items">
+          <div class="main__container__flex">
+            <article class="main__container__flex__items__right">
+              <div class="main__container__flex__img">
+                <img src="./assets/service-5.png" alt="service-5" />
+              </div>
+              <div>
+                <h3>MEDICAL COUNSELLING</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Illo, vero?
+                </p>
+              </div>
+            </article>
+            <article class="main__container__flex__items__right">
+              <div class="main__container__flex__img">
+                <img src="./assets/service-6.png" alt="service-6" />
+              </div>
+              <div>
+                <h3>REHABILITATION CENTER</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Illo, vero?
+                </p>
+              </div>
+            </article>
+            <article class="main__container__flex__items__right">
+              <div class="main__container__flex__img">
+                <img src="./assets/service-7.png" alt="service-7" />
+              </div>
+              <div>
+                <h3>SPECIAL CARE UNIT</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Illo, vero?
+                </p>
+              </div>
+            </article>
+            <article class="main__container__flex__items__right">
+              <div class="main__container__flex__img">
+                <img src="./assets/service-8.png" alt="service-8" />
+              </div>
+              <div>
+                <h3>INHOUSE PHARMACY</h3>
+                <p>
+                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                  Illo, vero?
+                </p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="footer__content">
+        <section class="footer__content__items">
+          <h1>FIND US</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas,
+            explicabo? Quae architecto quaerat maiores ducimus.
+          </p>
+          <span class="footer__content__text"
+            ><img src="./assets/location.png" alt="location" />795 South Park
+            Avenue, CA 94107</span
+          >
+          <span class="footer__content__text"
+            ><img
+              src="./assets/envelop.png"
+              alt="mail"
+            />enquery@domain.com</span
+          >
+          <span class="footer__content__text"
+            ><img src="./assets/phone.png" alt="call" />+1 908 875 7678</span
+          >
+        </section>
+        <section class="footer__content__items">
+          <h1>QUICK LINKS</h1>
+          <ul class="footer__links">
+            <li>
+              <img src="./assets/arrow.png" alt="arrow" />
+              <a href="">General Information</a>
+            </li>
+            <li>
+              <img src="./assets/arrow.png" alt="arrow" />
+              <a href="">Blood Bank</a>
+            </li>
+            <li>
+              <img src="./assets/arrow.png" alt="arrow" />
+              <a href="">Medical Research</a>
+            </li>
+            <li>
+              <img src="./assets/arrow.png" alt="arrow" />
+              <a href="">Emergency Service</a>
+            </li>
+            <li>
+              <img src="./assets/arrow.png" alt="arrow" />
+              <a href="">Ambulance</a>
+            </li>
+            <li>
+              <img src="./assets/arrow.png" alt="arrow" />
+              <a href="">Easy Payment</a>
+            </li>
+          </ul>
+        </section>
+        <section class="footer__content__items">
+          <h1>NEWSLETTER</h1>
+          <form action="#">
+            <input
+              type="text"
+              name="FullName"
+              id="FullName"
+              placeholder="Your Name"
+            />
+            <input
+              type="email"
+              name="Email"
+              id="Email"
+              placeholder="Your Email"
+            />
+            <button type="submit" class="footer__btn" onclick="submitForm()">
+              Register
+            </button>
+          </form>
+        </section>
+      </div>
+      <div class="footer__nav__container">
+        <ul class="footer__nav">
+          <li><a href="">HOME</a></li>
+          <li><a href="">ABOUT</a></li>
+          <li><a href="">SERVICE</a></li>
+          <li><a href="">CONTACT</a></li>
+        </ul>
+        <p>
+          Copyright &copy; 2019
+          <span class="footer__nav__span">Mental&Health</span>
+        </p>
+        <div class="footer__socials">
+          <a href="#"
+            ><img src="./assets/fb.png" alt="facebook" height="30" width="30"
+          /></a>
+          <a href="#"
+            ><img
+              src="./assets/twitter.png"
+              alt="twitter"
+              height="30"
+              width="30"
+          /></a>
+          <a href="#"
+            ><img
+              src="./assets/linkdin.png"
+              alt="linkedin"
+              height="30"
+              width="30"
+          /></a>
+        </div>
+      </div>
+    </footer>
+    <script src="./script.js"></script>
+  </body>
+</html>
