@@ -532,8 +532,8 @@ span {
   }
 }
 
-@media only screen and (min-width: 2000px) {
+@media only screen and (min-width: 2800px) {
   html {
-    zoom: 150%;
+    zoom: 200%;
   }
 }
