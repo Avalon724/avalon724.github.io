@@ -472,7 +472,7 @@ span {
   .header__nav__navlinks > li {
     padding: 15px 0;
     background: var(--secondary);
-    width: 100%;
+    width: 90%;
     text-align: center;
   }
   .header__nav__navlinks > li > a {
