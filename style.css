@@ -516,13 +516,19 @@ span {
     width: 1200px;
   }
   .header__banner__container {
-    height: 720px;
+    height: 600px;
   }
   .main__container {
     width: 1200px;
   }
   .footer__content {
     width: 1200px;
+  }
+}
+
+@media screen and (min-width: 1700px) {
+  .header__banner__container {
+    height: 740px;
   }
 }
 
